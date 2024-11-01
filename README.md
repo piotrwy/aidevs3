@@ -17,3 +17,18 @@
 
 4. **Access the application:**
    Open your browser and navigate to `http://localhost:8080`
+
+## AIDevs
+
+See example command [App\AiDevs3\Prework\Test](src/src/AiDevs3/Prework/Test.php)
+To run it execute:
+
+```
+make bash
+bin/console ai:test
+```
+
+If you want to debug what is sent and what is received use `--vvv` parameter:
+```
+bin/console ai:test --vvv
+```
