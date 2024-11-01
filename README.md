@@ -20,15 +20,24 @@
 
 ## AIDevs
 
+### API Key
+
+```
+cp src/.env.local.dist src/.env.local
+```
+Insert API KEY in `src/.env.local` file.
+
+### Creating solution commands
+
 See example command [App\AiDevs3\Prework\Test](src/src/AiDevs3/Prework/Test.php)
 To run it execute:
 
 ```
 make bash
-bin/console ai:test
+bin/console ai:prework:test
 ```
 
 If you want to debug what is sent and what is received use `--vvv` parameter:
 ```
-bin/console ai:test --vvv
+bin/console ai:prework:test --vvv
 ```

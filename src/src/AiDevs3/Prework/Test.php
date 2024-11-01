@@ -5,7 +5,7 @@ namespace App\AiDevs3\Prework;
 use App\AiDevs3\Base\Command;
 use Symfony\Component\Console\Attribute\AsCommand;
 
-#[AsCommand(name: 'ai:test')]
+#[AsCommand(name: 'ai:prework:test')]
 class Test extends Command
 {
     public const TASK_NAME = 'POLIGON';
