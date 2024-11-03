@@ -12,7 +12,7 @@
 3. **Access the PHP container and install Symfony:**
    ```
    make bash
-   composer create-project symfony/skeleton ./ 7.1.*
+   composer install
    ```
 
 4. **Access the application:**
